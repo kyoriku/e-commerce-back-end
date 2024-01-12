@@ -33,7 +33,10 @@ E-commerce Back End is a comprehensive project designed to empower internet reta
     DB_USER='your_database_user'
     DB_PASSWORD='your_database_password'
     ```
-2. Create the database using the `schema.sql` file. 
+2. Create the database with [MySQL Workbench](https://www.mysql.com/products/workbench/) or [MySQL Shell](https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-getting-started.html) using the `schema.sql` file. 
+    ``` bash
+    CREATE DATABASE ecommerce_db;
+    ```
 3. Seed the database.
     ``` bash
     npm run seed
@@ -42,7 +45,28 @@ E-commerce Back End is a comprehensive project designed to empower internet reta
     ``` bash
     npm start
     ```
-5. Use Insomnia to test API routes.
+5. Use [Insomnia](https://insomnia.rest/download) to test API routes.
+
+### Screenshots
+- Get all products:
+
+![GetAllProducts](assets/images/e-commerce-insomnia1.png)
+
+- Get a single product by id:
+
+![GetOneProduct](assets/images/e-commerce-insomnia2.png)
+
+- Create a new product:
+
+![CreateNewProduct](assets/images/e-commerce-insomnia3.png)
+
+- Update a product by id:
+
+![UpdateProduct](assets/images/e-commerce-insomnia4.png)
+
+- Delete a product by id:
+
+![DeleteProduct](assets/images/e-commerce-insomnia5.png)
 
 ## License
 This application is covered by the [MIT](https://opensource.org/licenses/MIT) license.
