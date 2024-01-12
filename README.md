@@ -35,6 +35,7 @@ E-commerce Back End is a comprehensive project designed to empower internet reta
     ```
 2. Create the database with [MySQL Workbench](https://www.mysql.com/products/workbench/) or [MySQL Shell](https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-getting-started.html) using the `schema.sql` file. 
     ``` bash
+    DROP DATABASE IF EXISTS ecommerce_db;
     CREATE DATABASE ecommerce_db;
     ```
 3. Seed the database.
