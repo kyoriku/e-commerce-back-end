@@ -30,8 +30,8 @@ E-commerce Back End is a comprehensive project designed to empower internet reta
 1. Create a `.env` file with the following variables and fill in your database credentials
     ``` bash
     DB_NAME='your_database_name'
-    DB_USER='your_database_user'
-    DB_PASSWORD='your_database_password'
+    DB_USER='your_MySQL_username'
+    DB_PASSWORD='your_MySQL_password'
     ```
 2. Create the database with [MySQL Workbench](https://www.mysql.com/products/workbench/) or [MySQL Shell](https://dev.mysql.com/doc/mysql-shell/8.0/en/mysql-shell-getting-started.html) using the `schema.sql` file. 
     ``` bash
