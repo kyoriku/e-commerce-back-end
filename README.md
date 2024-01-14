@@ -48,6 +48,12 @@ E-commerce Back End is a comprehensive project designed to empower internet reta
     ```
 5. Use [Insomnia](https://insomnia.rest/download) to test API routes.
 
+### Demo Video
+
+https://github.com/kyoriku/e-commerce-back-end/assets/145511725/4e15deba-b4b6-4dff-a36d-2c551f44b3c0
+
+[Link to demo video](https://drive.google.com/file/d/1nJlOPxqo6QUTp7PbqJKPTPrLi2V8tR08/view?usp=sharing)
+
 ### Screenshots
 - Get all products:
 
